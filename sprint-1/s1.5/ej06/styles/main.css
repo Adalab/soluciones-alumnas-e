@@ -1,0 +1,60 @@
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+@media all and (min-width: 768px) {
+
+    .container {
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+}
+
+@media all and (min-width: 1140px) {
+    .container {
+        margin-top: 190px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+
+
+
+
+
