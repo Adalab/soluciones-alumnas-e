@@ -1,0 +1,38 @@
+body {
+    color: white;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20% 60% 20%;
+}
+
+.header{
+    background-color: pink;
+    grid-column: span 12;
+}
+
+.menu{
+    background-color: purple;
+    grid-column: span 4;
+}
+
+.content{
+    background-color: red;
+    grid-column: span 8;
+}
+
+.footer{
+    background-color: lightblue;
+    grid-column: span 12;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
