@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    background-color:whitesmoke;
+/* removing overflow x, no idea why this is happening */
+    overflow-x: hidden;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(17, 16, 16, 0.932);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 0 10px;
+}
+
+.container-flex{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 20px 0 20px;
+    text-align: center;
+    color:rgba(17, 16, 16, 0.932);
+    background-color: whitesmoke;
+    
+}
+
+article{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    color: rgba(17, 16, 16, 0.932);
+}
+    
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* height: 15vh; */
+    padding: 0 20px;
+    text-align: center;
+    border-top: 1px solid grey;
+    background-color:whitesmoke;
+    color: rgba(17, 16, 16, 0.932);
+}
+
+
+.overlay {
+    /* position: absolute;<-- with this one cannot set full height coverage for the overlay ¯\_(ツ)_/¯*/
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.411);
+    display: flex;
+}
+
+.modal {
+    position: relative;
+    width: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5%;
+    padding: 5px;
+    margin: auto;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 1px 2px rgba(172, 163, 163, 0.541);
+}
+
+.deny {
+    background-color: white;
+    color: black;
+    
+}
+
+.subscribe {
+    background-color: black;
+    color: white;
+ 
+}
+
+
+
