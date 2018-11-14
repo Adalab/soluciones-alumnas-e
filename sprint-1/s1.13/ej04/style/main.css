@@ -1,0 +1,41 @@
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: relative;
+    height: 100vh;
+}
+
+.titulo {
+    border: 2px solid blueviolet;
+    position: absolute;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+
+@keyframes intro {
+    from {
+        margin-top: -500px;
+    }
+
+    to {
+        margin-top: 400px;
+    }
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-name: intro;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
