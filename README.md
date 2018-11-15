@@ -5,7 +5,7 @@ En este repo podréis dejar vuestras soluciones a los ejercicios del temario.
 
 ## Cómo subir soluciones
 - Se pueden añadir archivos directamente a una rama (si ya estuviese resuelto en un codepen pasadlo a archivos siguiendo nuestra estructura de trabajo) 
-- Avisamos por el canal de Slack todas-promo-e de que tenemos un nuevo ejercicio indicando la rama y una compañera para que haya una segunda validación. (Una vez veamos Pull Request en el Sprint utilizaremos este método para revisar y validar los ejercicios)
+- Avisamos por el canal de Slack todas-promo-e de que tenemos un nuevo ejercicio indicando la rama y una compañera para que haya una segunda validación. (Una vez veamos Pull Request, en el Sprint 2, utilizaremos este método para revisar y validar los ejercicios)
 - Cuando nuestra compañera nos de el ok, mergeamos a master.
 - Añadiremos como administradoras a una alumna de cada turno para que os vayan dando permisos al resto
 - Os proponemos seguir esta estructura de manera que cada solución esté dentro se su sprint y dentro de su sesión correspondiente:
