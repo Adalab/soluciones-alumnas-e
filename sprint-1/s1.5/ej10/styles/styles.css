@@ -37,6 +37,8 @@ li {
 .link-1 {
     position: relative;
     display: inline-block;
+    text-decoration: underline;
+    color: black;
 }
 
 .link-text-1 {
@@ -59,6 +61,8 @@ li {
 .link-2 {
     position: relative;
     display: inline-block;
+    text-decoration: underline;
+    color: black;
 }
 
 .link-text-2 {
@@ -81,6 +85,8 @@ li {
 .link-3 {
     position: relative;
     display: inline-block;
+    text-decoration: underline;
+    color: black;
 }
 
 .link-text-3 {
