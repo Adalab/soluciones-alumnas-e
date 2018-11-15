@@ -2,40 +2,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-img {
-    position: relative;
     height: 100vh;
-}
-
-.titulo {
-    border: 2px solid blueviolet;
-    position: absolute;
-    width: 80%;
-    height: 200px;
-    padding: 10px;
-    margin: auto;
-    font-size: 40px;
-    font-weight: bold;
-    color: aqua;
+    background-image: url("../asset/image/mar.jpg");
+    background-size: cover;
 }
 
 @keyframes intro {
     from {
-        margin-top: -500px;
+        margin-top: -1200px;
     }
 
     to {
-        margin-top: 400px;
+        margin-top: 0;
     }
 }
 
 .titulo {
+    border: 2px solid purple;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
     font-size: 50px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    animation-name: intro;
-    animation-duration: 3s;
-    animation-iteration-count: 5;
+    font-weight: bold;
+    color: purple;
+    animation: intro 4s 1;
 }
