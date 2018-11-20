@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+
+.page-title{
+    position: relative;
+    background-color: gray;
+    text-align: center;
+    height: 30vh;
+}
+
+.title{
+    position: absolute;
+    bottom: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid{
+    padding: 0px;
+}
