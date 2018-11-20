@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.header{
+    height: 250px;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.cats-img{
+    width: 100%;
+    padding: 0;
+}
+.cats-img:nth-last-child(1){
+    height: 400px;
+}
+
+.no-padding {
+    padding: 0;
+}
