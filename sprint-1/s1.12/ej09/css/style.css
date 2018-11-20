@@ -1,0 +1,35 @@
+.header {
+    background: peachpuff;
+    color: slateblue;
+    height: 7vh;
+}
+
+.hero {
+    background: slateblue;
+    height: 30vh;
+}
+
+.section-main {
+    background: grey;
+    color: white;
+}
+
+.box {
+    color: black;
+    text-align: center;
+}
+
+.box-main {
+    background: palegoldenrod;
+    height: 20vh;
+}
+
+.footer {
+    background:peachpuff;
+    color: black;
+    height: 7vh;
+}
+
+[class*=col-]{
+    padding: 5px !important;
+}
