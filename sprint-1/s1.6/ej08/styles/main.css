@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    background: grey;
+}
+.menu {
+    background: green;
+}
+.box {
+    background: yellow;
+}
+.footer {
+    background: rgb(32, 31, 31);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title_box {
+    margin-top:0;
+}
+.title_header {
+    margin-top:0;
+}
+
+@media all and ( min-width:480px;) and ( max-width:1000px;){
+    .main_box{
+        display:flex;
+    }
+    .menu{
+        width:700px;
+    }
+
+    .orange_box {
+        background-color: orange;
+        width:200px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
