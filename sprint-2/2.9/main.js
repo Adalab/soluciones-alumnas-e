@@ -4,6 +4,7 @@ const btnEl = document.querySelector('.btn');
 const fillEl = document.querySelector('.fill');
 
 function search() {
+    event.preventDefault();
     fetch('https://api.github.com/orgs/' + fillEl.value)
         .then(orgResponse => orgResponse.json())
         .then(orgData => {
