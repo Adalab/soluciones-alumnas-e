@@ -48,9 +48,10 @@ function averageAge() {
 function theYoungestAdalaber() {
     let allAgesAdalabers = []
     for (let i = 0; i < adalabers.length; i++) {
-        allAgesAdalabers = adalabers[i].age; 
+        let age = adalabers[i].age; 
+        allAgesAdalabers.push(age);
     }
-    let littleAdalaber = Math.min( allAgesAdalabers);
+    let littleAdalaber = Math.min.apply(null, allAgesAdalabers);
     return `La adalaber más joven tiene ${littleAdalaber} años`;  
 };
 
