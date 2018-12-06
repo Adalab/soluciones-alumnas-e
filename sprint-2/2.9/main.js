@@ -17,10 +17,9 @@ function search() {
             console.log('Repositorios de la org:', reposData);
             const ul = document.querySelector('ul');
             const repos = reposData;
-            let listContent = ""
+            let listContent = "";
             for(const repo of repos){
-                const repoConten = `<li>${repo.name}</li>`;
-                listContent += repoConten;
+                listContent += `<li>${repo.name}</li>`;
             }
             ul.innerHTML = listContent;
         }   
