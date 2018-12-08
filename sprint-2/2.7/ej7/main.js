@@ -36,6 +36,7 @@ const adalabers = [
 function countAdalabers() {
     return adalabers.length;
 };
+console.log(countAdalabers());
 
 function averageAge() {
     let acc = 0;
@@ -44,6 +45,7 @@ function averageAge() {
     }
     return acc / adalabers.length;
 };
+console.log(averageAge());
 
 function theYoungestAdalaber() {
     let allAgesAdalabers = []
@@ -54,6 +56,7 @@ function theYoungestAdalaber() {
     let littleAdalaber = Math.min.apply(null, allAgesAdalabers);
     return `La adalaber más joven tiene ${littleAdalaber} años`;  
 };
+console.log(theYoungestAdalaber());
 
 function countDesigners() {
     let numberDesignersAdalabers = 0;
@@ -64,4 +67,5 @@ function countDesigners() {
     }
     return `El número de Adalabers diseñadoras es ${numberDesignersAdalabers}`;
 };
+console.log(countDesigners());
 
