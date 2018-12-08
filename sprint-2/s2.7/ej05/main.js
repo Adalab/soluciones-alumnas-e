@@ -4,14 +4,13 @@ const numbers = [1, 2, 3, 4, 5];
 
 let acc = 0;
 
-/*
-for (let i = 0; i < numbers.length; i++) {
+/*for (let i = 0; i < numbers.length; i++) {
     acc += numbers[i];
 }
 
 const average = acc / numbers.length;
 
-console.log(average);
+console.log(`La media del array numbers es ${average}.`);
 
 numbers[5] = 6;
 
@@ -23,29 +22,24 @@ for (let i = 0; i < numbers.length; i++) {
 
 const newAverage = acc / numbers.length;
 
-console.log(newAverage);
-*/
+console.log(`La nueva media del array numbers es ${newAverage}.`);*/
 
-function averageCalculator () {
-    for (let i = 0; i < numbers.length; i++) {
-        acc += numbers[i];
+
+function average (arr) {
+    acc = 0;
+    for (let i = 0; i < arr.length; i++) {
+        acc += arr[i];
     }
-
-    const average = acc / numbers.length;
-
-    console.log(average);
+    const result = acc / arr.length;
+    console.log(`La media del array es ${result}.`);
 }
 
-averageCalculator(numbers.lenght);
+console.log(average(numbers));
 
 numbers[5] = 6;
 
-acc = 0;
+console.log(average(numbers));
 
-averageCalculator(numbers.length);
+const newNumbers = [10, 20, 30];
 
-numbers[6] = 7;
-
-acc = 0;
-
-averageCalculator(numbers.length);
+console.log(average(newNumbers));
