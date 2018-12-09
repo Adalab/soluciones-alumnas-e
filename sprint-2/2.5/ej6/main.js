@@ -3,7 +3,7 @@
 const changeBackgroundColor = document.querySelector('.body');
 
 const changeColorBody = (e) => {
-    
+
     if (e.key === "r") {
         changeBackgroundColor.classList.add("bgc_red");
         changeBackgroundColor.classList.remove("bgc_purple");
