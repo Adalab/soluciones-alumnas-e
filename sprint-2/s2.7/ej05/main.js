@@ -2,9 +2,9 @@
 
 const numbers = [1, 2, 3, 4, 5];
 
-let acc = 0;
+/*let acc = 0;
 
-/*for (let i = 0; i < numbers.length; i++) {
+for (let i = 0; i < numbers.length; i++) {
     acc += numbers[i];
 }
 
@@ -26,7 +26,7 @@ console.log(`La nueva media del array numbers es ${newAverage}.`);*/
 
 
 function average (arr) {
-    acc = 0;
+    let acc = 0;
     for (let i = 0; i < arr.length; i++) {
         acc += arr[i];
     }
@@ -34,12 +34,12 @@ function average (arr) {
     console.log(`La media del array es ${result}.`);
 }
 
-console.log(average(numbers));
+average(numbers);
 
 numbers[5] = 6;
 
-console.log(average(numbers));
+average(numbers);
 
 const newNumbers = [10, 20, 30];
 
-console.log(average(newNumbers));
+average(newNumbers);
