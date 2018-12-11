@@ -1,8 +1,7 @@
 const boxName = document.querySelector(".boxName");
 const btnSearch = document.querySelector(".btn-Search");
 const list = document.querySelector(".list");
-const api = "https://swapi.co/api/people/?search="
-
+const api = "https://swapi.co/api/people/?search=";
 
 
 function handlerSearch(e) {
@@ -23,11 +22,20 @@ function handlerSearch(e) {
 
                 let itemCharacter = document.createElement('li');
                 let newContent = document.createTextNode(`${i+1} ${nameCh} : gender ${gender}`);
-                itemCharacter.appendChild(newContent);
-
+                itemName = itemCharacter.appendChild(newContent);
                 list.appendChild(itemCharacter);
             }
         })
+        .catch(error => list.innerHTML=`Ha sucedido un error: ${error}`);
+
+        
+
+
+
+
+
+
+
 }
 
 
