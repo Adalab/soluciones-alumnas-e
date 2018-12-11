@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-image: url("starwars.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 40px;
+}
+
+.searchName{
+    font-family: 'Bungee', cursive;
+}
+.search, .list{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: yellow;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 24px;
+    list-style: none;
+    text-align: initial;
+    margin-bottom:30px;transform-origin: 50% 60%;  
+    transform: perspective(900px) rotateX(25deg);
+    overflow: auto;
+}
+
+
+.searchName {
+  margin: 25px;
+  color: yellow;
+}
+
+.boxName {
+  margin: 25px;
+  border: solid 1px lightgray;
+  height: 40px;
+  width: 160px;
+  text-align: center;
+}
+
+.btn-Search {
+  margin: 10px;
+  background-color: yellow;
+  font-size: 18px;
+  height: 35px;
+  width:90px;
+  border-radius: 15px;
+  outline: none;
+}
+
+.btn-Search:hover {
+   transform:scale(0.9);
+  }
+  
