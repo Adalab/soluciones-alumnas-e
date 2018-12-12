@@ -1,0 +1,23 @@
+.head {
+    background: #fc0;
+    height: 100px;
+    position: relative;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .face {
+    font-family: 'courier new', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -60%) rotate(90deg);
+  }
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
