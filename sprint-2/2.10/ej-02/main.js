@@ -19,16 +19,15 @@ function handlerSearch(e) {
                 let nameCh = characters[i].name;
                 let gender = characters[i].gender;
 
-
                 let itemCharacter = document.createElement('li');
                 let newContent = document.createTextNode(`${i+1} ${nameCh} : gender ${gender}`);
                 itemName = itemCharacter.appendChild(newContent);
                 list.appendChild(itemCharacter);
             }
         })
-        .catch(error => list.innerHTML=`Ha sucedido un error: ${error}`);
+        .catch(error => list.innerHTML = `Ha sucedido un error: ${error}`);
 
-        
+
 
 
 
