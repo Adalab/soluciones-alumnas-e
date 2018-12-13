@@ -1,3 +1,4 @@
+'use strict';
 const buttonEl = document.querySelector('.button');
 const listEl = document.querySelector('.list');
 const inception = 'Inception';
