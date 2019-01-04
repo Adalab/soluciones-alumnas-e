@@ -1,0 +1,65 @@
+@import 'vars';
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.media-card {
+  width: 400px;
+  box-shadow: 4px 4px 4px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.card-name {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-align: right;
+}
+
+.card-info {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.card-image {
+  border-radius: 50px;
+  height: 50px;
+}
+
+.card-title {
+  margin: 0px;
+  font-family: 'helvetica';
+}
+
+.card-date, .card-text {
+  font-family: helvetica;
+  color: $color-text;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.heart {
+  color: $color-icon;
+  margin: 0 10px;
+}
