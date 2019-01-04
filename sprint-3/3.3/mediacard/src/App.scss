@@ -1,0 +1,50 @@
+.App {
+  margin: 80px 100px;
+  padding: 10px;
+  color: black;
+  box-shadow: 10px 5px 15px lightgray;
+}
+
+.App-logo {
+  height: 100px;
+}
+
+.Title-container {
+  padding-top: 30px;
+}
+
+.App-header {
+  display: flex;
+}
+
+.User-name {
+  font-size: 20px;
+}
+
+.Date {
+}
+
+.App-main {
+}
+
+.Text {
+}
+
+.App-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fas {
+  color: red;
+  font-size: 25px;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
