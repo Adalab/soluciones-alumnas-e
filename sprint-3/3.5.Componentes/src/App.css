@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  width: 60vw;
+}
+

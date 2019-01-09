@@ -22,7 +22,6 @@ function search() {
                 listContent += `<li>${repo.name}</li>`;
             }
             ul.innerHTML = listContent;
-        }   
-    )      
+        })
 }
 btnEl.addEventListener('click', search);
