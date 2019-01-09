@@ -1,0 +1,15 @@
+.button {
+    background-color: black;
+    border: 2px double rgb(235, 176, 217);
+    color: palevioletred;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.hidden {
+    display: none;
+}
