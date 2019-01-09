@@ -26,18 +26,22 @@ const items = [
     price: 5
   },
   {
-    name: 68,
+    //name: 68, (ejercicio4)
+    name: "Coca-Cola",
     description: "Agua de un charco del Himalaya",
     quantity: 2,
     category: "Bebida",
-    price: "holaa"
+    price: 8
+    // price: "holaa" (ejercicio4)
   }
 ];
 
 class App extends Component {
   render() {
     return (
+    <div>
       <ItemList items={items} />
+    </div> 
     )}
 }
 
