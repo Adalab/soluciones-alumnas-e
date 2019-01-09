@@ -1,0 +1,10 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
