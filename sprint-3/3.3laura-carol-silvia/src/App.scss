@@ -1,0 +1,81 @@
+@import '_vars';
+
+.App{ 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+}
+
+.App-main{
+  background: white;
+}
+
+.App-imagen {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-main{
+  width: 500px;
+  padding: 20px;
+  box-shadow: 2px 4px 5px #888888;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.App-titles{
+  text-align: left;
+  margin: unset;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: $dark-grey;
+
+  h1{
+    font-size: 20px;
+    margin: unset;
+  }
+
+  h2{
+    font-size: 16px;
+    margin: unset;
+    font-weight: normal;
+  }
+  
+}
+
+.texto{
+  color: $grey;
+  text-align: left;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link a{
+  color: $light_grey;
+}
+
+.App-likes{
+  display: flex;
+}
+
+.numerito{
+  margin: unset;
+  margin-left: 10px;
+}
+
+.fa-heart{
+  margin-left: 10px;
+  color: $red;
+}
