@@ -8,7 +8,8 @@ class App extends Component {
     this.state = {
       time: new Date().toLocaleTimeString()
     };
-    setInterval(() => this.updateClock(),1000)
+    this.updateClock = this.updateClock.bind(this);
+    setInterval(this.updateClock,1000);
   }
 
   updateClock() {
