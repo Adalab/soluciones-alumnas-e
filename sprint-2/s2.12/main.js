@@ -23,3 +23,4 @@ function handleContinueClick () {
 stopBtnEl.addEventListener('click', handleStopClick);
 
 continueBtnEl.addEventListener('click', handleContinueClick);
+
