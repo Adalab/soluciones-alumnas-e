@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    background-image: url("images/ciudadblur.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+	grid-template-columns: 100%;
+    grid-template-rows: 10% 85% 5%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-title{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color:white;
+    margin: 0 12.5%;
+    background-color: rgba(0,0,0,0.4);	
+}
+
+.container-cities {
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+.container-copyright{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color:white;
+    margin: 0 12.5%;
+    background-color: rgba(0,0,0,0.4);	
+}
+.photos-cities{
+    height: 70%;
+}
+.cities{
+    list-style: none;
+    background-color: rgb(255,255,255,0.4);
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.store{
+    height: 75%;
+    width: 25%;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("images/persiana.jpg");
+    background-size: cover;
+}
+
+.form-select{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    justify-content: space-between;
+}
+
+.select-city{
+    background-color: rgb(255,255,255,0.4);
+    width: 75%;
+    height: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+

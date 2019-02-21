@@ -1,0 +1,61 @@
+.App {
+  padding: 15px;
+  margin: 20px;
+  max-width: 25%;
+  border: 1px solid black; 
+}
+
+.App-header {
+  display: flex;
+}
+
+.Img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.Profile {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: rgb(99, 98, 98);
+}
+
+.Name {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.Date {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.More {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Likes {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Number-likes {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.Icon {
+  color: red;
+}
+
+.Link {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.Main-text {
+  color: gray;
+}
